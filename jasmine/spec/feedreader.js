@@ -53,7 +53,7 @@ $(function() {
 
    describe('Initial Entries', function(){
     
-         */
+        
         beforeEach(function (done) {
             loadFeed(1, done);
         });
