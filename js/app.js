@@ -110,6 +110,7 @@ $(function() {
         feedList.append(feedItemTemplate(feed));
 
         feedId++;
+       // console.log(feedId);
     });
 
     /* When a link in our feedList is clicked on, we want to hide
