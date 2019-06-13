@@ -1,10 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\jasmine",
     "\\jasmine\\spec",
     "\\js"
   ],
-  "SelectedNode": "\\jasmine\\spec\\feedreader.js",
+  "SelectedNode": "\\jasmine",
   "PreviewInSolutionExplorer": false
 }

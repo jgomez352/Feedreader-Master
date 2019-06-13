@@ -32,6 +32,13 @@ $(function() {
                 expect(feed.name.length).toBeGreaterThan(0);
             }
         });
+        it('each has url', function () {
+            for (let feed of allFeeds) {
+                expect(feed.url).toBeDefined();
+                expect(feed.url.constructor).toBe(String);
+                expect(feed.url.length).toBeGreaterThan(0);
+            }
+        });
     });
     describe('The menu', function () {
 
